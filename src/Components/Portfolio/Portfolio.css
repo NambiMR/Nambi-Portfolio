@@ -1,0 +1,90 @@
+.portfolio {
+    padding: 60px 50px;
+    background: #333;
+    color: #fff;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 10px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0ef;
+    margin-bottom: 40px;
+}
+
+.portfolio-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    flex: 1 1 300px;
+    max-width: 350px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.project-links a {
+    flex: 1;
+    text-decoration: none;
+    color: #fff;
+    background: #0ef;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.project-links a:hover {
+    background: rgb(255, 175, 3);
+    transform: scale(1.05);
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px white;
+}
+
+/* ==========MEDIA QUERIES========= */
+
+@media screen and (max-width: 900px) {
+    .portfolio-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 100%;
+        max-width: 90%;
+    }
+}

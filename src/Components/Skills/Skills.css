@@ -1,0 +1,124 @@
+/* .skills {
+    padding: 60px 50px;
+    background: #1a1a1a;
+    color: #fff;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 10px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0ef;
+    margin-bottom: 40px;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill {
+    flex: 1  150px;
+    max-width: 200px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px white;
+}
+
+.skill-icon {
+    font-size: 50px;
+    color: #0ef;
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .skills-content {
+        flex-direction: column;
+        align-items: center;
+    }
+} */
+.skills {
+    padding: 60px 50px;
+    background: #ffff;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.skills h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.skill-card {
+    flex: 1 1 22%; /* Adjust this for 4 cards per row */
+    max-width: 22%;
+    background: #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #000;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.skill-card .skill-icon {
+    font-size: 40px;
+    color: #0ef;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px white;
+}
+
+/* ==========MEDIA QUERIES========= */
+
+@media screen and (max-width: 900px) {
+    .skill-card {
+        flex: 1 1 45%; /* Adjust for 2 cards per row */
+        max-width: 45%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skill-card {
+        flex: 1 1 90%; /* Adjust for 1 card per row */
+        max-width: 90%;
+    }
+}
