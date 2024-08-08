@@ -1,9 +1,10 @@
 
  {
+  "homepage": "https://NambiMR.github.io/Nambi-Portfolio",
   "name": "nambi-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://<NambiMR>.github.io/<Nambi-Portfolio>",
+  
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
