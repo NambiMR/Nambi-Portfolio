@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Nambi-Portfolio/static/css/main.17d1a7bd.css",
+    "main.js": "/Nambi-Portfolio/static/js/main.3c28a9af.js",
+    "static/media/nc.png": "/Nambi-Portfolio/static/media/nc.a2f506311611ff22e64c.png",
+    "static/media/profile.png": "/Nambi-Portfolio/static/media/profile.9146b7ecd629c4be35e7.png",
+    "static/media/eplantshop.JPG": "/Nambi-Portfolio/static/media/eplantshop.629d8c9e3f058be7389b.JPG",
+    "static/media/weather.JPG": "/Nambi-Portfolio/static/media/weather.ed41894bb6d695bf2df9.JPG",
+    "index.html": "/Nambi-Portfolio/index.html",
+    "main.17d1a7bd.css.map": "/Nambi-Portfolio/static/css/main.17d1a7bd.css.map",
+    "main.3c28a9af.js.map": "/Nambi-Portfolio/static/js/main.3c28a9af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17d1a7bd.css",
+    "static/js/main.3c28a9af.js"
+  ]
+}
